@@ -1,0 +1,110 @@
+@import '@core/scss/base/bootstrap-extended/include'; // Bootstrap includes
+@import '@core/scss/base/components/include'; // Components includes
+
+// margin for both views
+.grid-view {
+  &:not(.wishlist-items) {
+    margin-top: 2rem;
+  }
+}
+
+// Grid View Specific style
+.grid-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  &.wishlist-items,
+  &.slide {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .ecommerce-card {
+    overflow: hidden;
+
+    // Item Image
+    .item-img {
+      padding-top: 0;
+      // min-height: 15.85rem;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    // Item content wrapper
+    .item-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    // Hiding list view items
+    .shipping,
+    .item-company,
+    .item-options .item-price {
+      display: none;
+    }
+
+    .item-options {
+      display: flex;
+      flex-wrap: wrap;
+
+      .btn-cart,
+      .btn-wishlist {
+        flex-grow: 1;
+        border-radius: 0;
+      }
+    }
+
+    .item-name {
+      margin-top: 0.75rem;
+    }
+
+    // Item Description
+    .item-description {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      margin-top: 0.2rem;
+    }
+
+    .item-price {
+      font-weight: $font-weight-bolder;
+    }
+
+    .card-body {
+      padding: 1rem;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .grid-view.wishlist-items {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid-view.slide {
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-columns: minmax(300px,1fr);
+    overflow-x: auto;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  // Grid view for responsive
+  .grid-view {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .grid-view.wishlist-items {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  // Grid View
+  .grid-view,
+  .grid-view.wishlist-items {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,55 @@
+@import '@core/scss/base/bootstrap-extended/include'; // Bootstrap includes
+@import '@core/scss/base/components/include'; // Components includes
+
+.ecommerce-card {
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 25px 0 rgba($black, 0.25);
+  }
+
+  // ratings
+  .item-rating {
+    ul {
+      margin-bottom: 0;
+    }
+    svg,
+    i {
+      height: 1.143rem;
+      width: 1.143rem;
+      font-size: 1.143rem;
+    }
+  }
+
+  // Item name
+  .item-name {
+    margin-bottom: 0;
+    a {
+      font-weight: $font-weight-bolder;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .item-description {
+    font-size: 0.875rem;
+  }
+
+  // buttons style
+  .btn-wishlist,
+  .btn-cart {
+    span {
+      vertical-align: text-top;
+    }
+    i,
+    svg {
+      margin-right: 0.25rem;
+      vertical-align: text-top;
+      &.text-danger {
+        fill: $danger;
+      }
+    }
+  }
+}

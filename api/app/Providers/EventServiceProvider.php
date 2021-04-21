@@ -2,9 +2,13 @@
 
 namespace App\Providers;
 
+use App\Listeners\SetEmailStatusFailed;
+use App\Listeners\SetEmailStatusSent;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
+use Illuminate\Mail\Events\MessageSending;
+use Illuminate\Mail\Events\MessageSent;
 use Illuminate\Support\Facades\Event;
 
 class EventServiceProvider extends ServiceProvider
@@ -18,6 +22,12 @@ class EventServiceProvider extends ServiceProvider
         Registered::class => [
             SendEmailVerificationNotification::class,
         ],
+        MessageSent::class => [
+            SetEmailStatusSent::class,
+        ],
+        MessageSending::class => [
+            SetEmailStatusFailed::class
+        ]
     ];
 
     /**

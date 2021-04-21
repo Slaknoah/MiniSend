@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\API\EmailsController;
+use App\Http\Controllers\API\TokenController;
+use App\Http\Controllers\API\UsersController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +17,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::group(['prefix' => 'v1'], function(){
+    Route::get('/user', [ UsersController::class, 'show' ]);
+
+    Route::get('/tokens', [ TokenController::class, 'index' ]);
+    Route::post('/tokens', [ TokenController::class, 'create' ]);
+
+    Route::get('/emails', [ EmailsController::class, 'index']);
+    Route::post('/emails', [ EmailsController::class, 'store']);
 });
