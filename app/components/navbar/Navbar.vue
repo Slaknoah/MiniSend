@@ -35,6 +35,7 @@
           </div>
           <b-avatar
             size="40"
+            :src="$auth.user.avatar"
             variant="light-primary"
           />
         </template>
