@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af37545b-93da-4d5c-ad02-1afe7b37cd40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/API/Email/CreateEmailTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/API/Email/LoadEmailsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/API/Recipient/RecipientTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/API/Token/TokenTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.testing.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minisend-worker.conf.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/EmailController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/EmailController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/TokenController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/TokenController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Recipient.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Recipient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/Email/CreateEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Email/CreateEmail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/Email/LoadEmails.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Email/LoadEmails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/User/Authentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/User/Authentication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/EmailSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/EmailSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/LoginUserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/API/Authentication/LoginUserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/LogoutUserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/API/Authentication/LogoutUserTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +50,7 @@
     <select />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/laradock" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -263,7 +247,7 @@
       <workItem from="1618854217967" duration="34302000" />
       <workItem from="1618981868029" duration="11967000" />
       <workItem from="1618998675355" duration="32688000" />
-      <workItem from="1619071231293" duration="19264000" />
+      <workItem from="1619071231293" duration="20853000" />
     </task>
     <servers />
   </component>
