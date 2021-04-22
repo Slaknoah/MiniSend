@@ -10,6 +10,7 @@ class LoadEmails
 {
     private $take;
     private $search;
+    private $recipient;
     private $query;
     private $orderBy;
     private $status;
@@ -23,6 +24,7 @@ class LoadEmails
 
     public function load() {
         $this->applyAddedBy();
+        $this->applyRecipientFilter();
         $this->applyStatusFilter();
         $this->applySearch();
         $this->applyOrder();
@@ -39,6 +41,15 @@ class LoadEmails
     {
         if( $this->status != '' ) {
             $this->query->where('status', $this->status);
+        }
+    }
+
+    private function applyRecipientFilter()
+    {
+        if( $this->recipient != '' ) {
+            $this->query->whereHas('recipients', function ($query) {
+                $query->where('recipients.id', $this->recipient);
+            });
         }
     }
 
@@ -67,6 +78,7 @@ class LoadEmails
         $this->take             = isset( $parameters['take'] ) ? $parameters['take'] : 10;
         $this->search           = isset( $parameters['search'] ) ? $parameters['search'] : '';
         $this->status           = isset( $parameters['status'] ) ? $parameters['status'] : '';
+        $this->recipient        = isset( $parameters['recipient'] ) ? $parameters['recipient'] : '';
         $this->orderBy          = isset( $parameters['order_by'] ) ? $parameters['order_by'] : 'updated_at';
         $this->orderDirection   = isset( $parameters['order_direction'] ) ? $parameters['order_direction'] : 'DESC';
     }

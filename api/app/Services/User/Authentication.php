@@ -4,6 +4,7 @@
 namespace App\Services\User;
 
 
+use App\Services\Gravatar;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 
@@ -29,6 +30,9 @@ class Authentication
                 'email'     => $this->data['email'],
                 'password'  => $this->data['password']
             ])) {
+                $gravatar = new Gravatar( Auth::user()->email );
+                $gravatar->update( Auth::user() );
+
                 return response()->json('', 204);
             } else {
                 return response()->json([

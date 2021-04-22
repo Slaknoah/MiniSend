@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
+use App\Services\Gravatar;
 use App\Services\User\Authentication;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -14,6 +15,8 @@ class AuthController extends Controller
 {
     public function register(Request $request)
     {
+        $gravatar = new Gravatar( $request->get('email') );
+
         $validator = Validator::make($request->all(), [
             'name'      => 'required|string|max:255',
             'email'     => 'required|string|email|max:255|unique:users',
@@ -26,9 +29,8 @@ class AuthController extends Controller
                 'name'  => $request->get('name'),
                 'email'  => $request->get('email'),
                 'password'  => bcrypt( $request->get('password') ),
+                'avatar'    => $gravatar->get()
             ]);
-
-//            $user->sendApiEmailVerificationNotification();
 
             return response()->json('', 204);
         }

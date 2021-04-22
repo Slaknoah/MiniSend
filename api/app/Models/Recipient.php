@@ -10,7 +10,7 @@ class Recipient extends Model
 {
     use HasFactory, SoftDeletes;
 
-    protected $fillable = ['email', 'name'];
+    protected $fillable = ['email', 'name', 'avatar'];
 
     public function emails()
     {

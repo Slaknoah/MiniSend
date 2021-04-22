@@ -17,7 +17,7 @@ class EmailSeeder extends Seeder
      */
     public function run()
     {
-        $user = User::find(1);
+        $user = User::findOrFail(1);
         $recipients = Recipient::select('id')->limit(random_int( 1, 4))->get();
 
         $emails = Email::factory(20)->create([

@@ -67,12 +67,12 @@
         </div>
 
         <div v-else>
-          <b-badge>
+          <b-button class="p-1 mb-1">
             <feather-icon
               icon="CodeIcon"
-              size="64"
+              size="24"
             />
-          </b-badge>
+          </b-button>
           <h3>No API tokens to show</h3>
           <p>You have not created any API tokens yet</p>
         </div>

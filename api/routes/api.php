@@ -1,8 +1,9 @@
 <?php
 
-use App\Http\Controllers\API\EmailsController;
+use App\Http\Controllers\API\EmailController;
+use App\Http\Controllers\API\RecipientController;
 use App\Http\Controllers\API\TokenController;
-use App\Http\Controllers\API\UsersController;
+use App\Http\Controllers\API\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -18,11 +19,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(['prefix' => 'v1'], function(){
-    Route::get('/user', [ UsersController::class, 'show' ]);
+    Route::get('/user', [ UserController::class, 'show' ]);
 
     Route::get('/tokens', [ TokenController::class, 'index' ]);
     Route::post('/tokens', [ TokenController::class, 'create' ]);
 
-    Route::get('/emails', [ EmailsController::class, 'index']);
-    Route::post('/emails', [ EmailsController::class, 'store']);
+    Route::get('/recipients/{recipient}', [ RecipientController::class, 'show']);
+
+    Route::get('/emails', [ EmailController::class, 'index']);
+    Route::post('/emails', [ EmailController::class, 'store']);
 });

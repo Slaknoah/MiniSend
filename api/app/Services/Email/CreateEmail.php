@@ -8,6 +8,7 @@ use App\Jobs\SendEmailJob;
 use App\Mail\EmailPostedMail;
 use App\Models\Email;
 use App\Models\Recipient;
+use App\Services\Gravatar;
 use Illuminate\Bus\Batch;
 use Illuminate\Support\Facades\Bus;
 use Illuminate\Support\Facades\Log;
@@ -68,9 +69,13 @@ class CreateEmail
         $recipientIDs = [];
         foreach ($this->data['to'] as $recipient) {
             $recipientModel = Recipient::firstOrCreate(
-                ['name' => $recipient['name']],
-                ['email' => $recipient['email']]
+                ['email' => $recipient['email']],
+                ['name' => $recipient['name']]
             );
+
+            $gravatar = new Gravatar( $recipientModel->email );
+            $gravatar->update( $recipientModel );
+
             $recipientIDs[] = $recipientModel->id;
         }
         $email->recipients()->sync($recipientIDs);

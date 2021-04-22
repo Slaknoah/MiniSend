@@ -2,512 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af37545b-93da-4d5c-ad02-1afe7b37cd40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laradock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/app-config/useAppConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/assets/fonts/feather/fonts/feather.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/assets/fonts/feather/fonts/feather.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/assets/fonts/feather/fonts/feather.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/assets/fonts/feather/fonts/feather.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/assets/fonts/feather/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/auth/jwt/jwtDefaultConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/auth/jwt/jwtService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/auth/jwt/useJwt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/comp-functions/forms/form-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/comp-functions/forms/form-validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/comp-functions/misc/event-listeners.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/comp-functions/ui/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/comp-functions/ui/vertical-menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/app-auto-suggest/AppAutoSuggest.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/app-auto-suggest/useAutoSuggest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/app-collapse/AppCollapse.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/app-collapse/AppCollapseItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/app-timeline/AppTimeline.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/app-timeline/AppTimelineItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/app-tour/AppTour.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/b-card-actions/BCardActions.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/b-card-actions/BCardActionsContainer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/b-card-actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/b-card-code/BCardCode.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/b-card-code/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/charts/echart/AppEchartBar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/charts/echart/AppEchartDoughnut.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/charts/echart/AppEchartLine.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/charts/echart/AppEchartRadar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/charts/echart/AppEchartScatter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/charts/echart/AppEchartStackedArea.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/charts/echart/theme.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/feather-icon/FeatherIcon.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/scroll-to-top/ScrollToTop.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/statistics-cards/StatisticCardHorizontal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/statistics-cards/StatisticCardVertical.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/statistics-cards/StatisticCardWithAreaChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/statistics-cards/StatisticCardWithLineChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/statistics-cards/chartOptions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/components/toastification/ToastificationContent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/directives/animations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/AppBreadcrumb.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/AppFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/Logo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-customizer/AppCustomizer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-customizer/useAppCustomizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-navbar/AppNavbarHorizontalLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-navbar/AppNavbarHorizontalLayoutBrand.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-navbar/AppNavbarVerticalLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-navbar/components/Bookmarks.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-navbar/components/CartDropdown.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-navbar/components/DarkToggler.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-navbar/components/Locale.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-navbar/components/NotificationDropdown.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-navbar/components/SearchBar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-navbar/components/UserDropdown.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/app-navbar/search-and-bookmark-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/content-with-sidebar/ContentWithSidebar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/layout-content-renderer/LayoutContentRendererDefault.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/layout-content-renderer/LayoutContentRendererLeft.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/components/layout-content-renderer/LayoutContentRendererLeftDetached.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-full/LayoutFull.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/LayoutHorizontal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/HorizontalNavMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-group/HorizontalNavMenuGroup.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-group/mixinHorizontalNavMenuGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-group/useHorizontalNavMenuGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-header-group/HorizontalNavMenuHeaderGroup.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-header-group/mixinHorizontalNavMenuHeaderGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-header-group/useHorizontalNavMenuHeaderGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-header-link/HorizontalNavMenuHeaderLink.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-header-link/mixinHorizontalNavMenuHeaderLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-header-link/useHorizontalNavMenuHeaderLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-items/HorizontalNavMenuItems.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-link/HorizontalNavMenuLink.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-link/mixinHorizontalNavMenuLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/components/horizontal-nav-menu/components/horizontal-nav-menu-link/useHorizontalNavMenuLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/mixinLayoutHorizontal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-horizontal/useLayoutHorizontal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/LayoutVertical.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/components/vertical-nav-menu/VerticalNavMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/components/vertical-nav-menu/components/vertical-nav-menu-group/VerticalNavMenuGroup.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/components/vertical-nav-menu/components/vertical-nav-menu-group/mixinVerticalNavMenuGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/components/vertical-nav-menu/components/vertical-nav-menu-group/useVerticalNavMenuGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/components/vertical-nav-menu/components/vertical-nav-menu-header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/components/vertical-nav-menu/components/vertical-nav-menu-items/VerticalNavMenuItems.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/components/vertical-nav-menu/components/vertical-nav-menu-link/VerticalNavMenuLink.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/components/vertical-nav-menu/components/vertical-nav-menu-link/mixinVerticalNavMenuLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/components/vertical-nav-menu/components/vertical-nav-menu-link/useVerticalNavMenuLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/components/vertical-nav-menu/useVerticalNavMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/mixinVerticalLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/layout-vertical/useVerticalLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/layouts/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/libs/acl/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/libs/acl/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/libs/i18n/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/libs/i18n/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/mixins/ui/forms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/mixins/ui/transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_collapse.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_helper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_include.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_toast.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/mixins/_navs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap-extended/mixins/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/components.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/components/_include.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/components/_variables-dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/components/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/components/avatar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/components/bootstrap-social.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/components/chart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/components/customizer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/components/demo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/components/divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/components/search.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/components/timeline.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/colors/_palette.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/colors/palette-gradient.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/colors/palette-noui.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/colors/palette-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/layouts/_content.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/layouts/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/layouts/_sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/menu/_navigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/menu/menu-types/horizontal-menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/menu/menu-types/vertical-menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/menu/menu-types/vertical-overlay-menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/mixins/alert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/mixins/alert.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/mixins/alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/mixins/hex2rgb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/mixins/hex2rgb.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/mixins/hex2rgb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/mixins/main-menu-mixin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/mixins/main-menu-mixin.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/mixins/main-menu-mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/mixins/transitions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/mixins/transitions.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/core/mixins/transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/custom-rtl.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-calendar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-chat-list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-chat.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-ecommerce-details.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-ecommerce.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-email.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-file-manager.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-invoice-list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-invoice-print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-invoice.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-kanban.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-todo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/app-user.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/dashboard-ecommerce.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/page-auth.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/page-blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/page-coming-soon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/page-coming-soon.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/page-coming-soon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/page-faq.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/page-knowledge-base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/page-misc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/page-misc.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/page-misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/page-pricing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/page-profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/ui-colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/pages/ui-feather.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/charts/chart-apex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/extensions/ext-component-context-menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/extensions/ext-component-drag-drop.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/extensions/ext-component-media-player.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/extensions/ext-component-media-player.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/extensions/ext-component-media-player.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/extensions/ext-component-ratings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/extensions/ext-component-sliders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/extensions/ext-component-sweet-alerts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/extensions/ext-component-swiper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/extensions/ext-component-toastr.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/extensions/ext-component-tour.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/extensions/ext-component-tree.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/forms/form-file-uploader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/forms/form-number-input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/forms/form-quill-editor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/forms/form-validation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/forms/form-wizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/forms/pickers/form-flat-pickr.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/forms/pickers/form-pickadate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/forms/select2/_select2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/maps/map-leaflet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/maps/map-leaflet.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/maps/map-leaflet.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/tables/_datatables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/tables/table-ag-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/ui/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/ui/coming-soon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/ui/coming-soon.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/plugins/ui/coming-soon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/themes/bordered-layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/themes/dark-layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/base/themes/semi-dark-layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/_animation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/_base-extended.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/_dark-layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/_rtl.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/apps/calendar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_avatar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_calendar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_date-picker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_file-input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_rating.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_spin-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_switch.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_tag.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_time.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_toast.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/bootstrap-vue/_validation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/chart-apex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/map-leaflet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/map-leaflet.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/map-leaflet.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/quill.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/swiper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/toastification.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/tour.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/tree.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/vue-autosuggest.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/vue-context.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/vue-flatpicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/vue-good-table.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/vue-select.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/vue-slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/vue-sweetalert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/libs/vue-wizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/pages/card-analytic.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/pages/dashboard-ecommerce.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/pages/page-auth.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/pages/page-blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/pages/page-faq.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/pages/page-knowledge-base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/pages/page-misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/pages/page-pricing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/pages/page-profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/scss/vue/pages/ui-feather.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/utils/filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/utils/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/utils/validations/validations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/@core/utils/validations/validators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/api/emails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/1-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/10-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/11-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/12-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/13-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/2-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/3-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/4-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/5-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/6-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/7-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/8-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/9-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/avatars/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/banner/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/banner/jquery-ui-1.12.1.custom.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/banner/mainpage-banner.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/banner/parallax-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/banner/upgrade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/flags/de.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/flags/en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/flags/fr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/flags/pt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/angular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/apple-safari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/book.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/bootstrap.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/brush.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/doc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/drive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/dropbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/figma.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/file-icons/doc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/file-icons/onedrive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/file-icons/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/file-icons/psd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/file-icons/sketch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/google-chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/icloud-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/icloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/internet-explorer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/internet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/jpg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/js.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/json.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/mozila-firefox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/onedrive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/onedrivenew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/opera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/parachute.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/psd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/rocket.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/sketch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/speaker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/toolbox.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/txt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/unknown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/vuejs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/icons/xls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/logo/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/logo/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/logo/screencapture-atcp-slaknoah-courses-lecture-series-africa-the-evolution-of-human-culture-copy-lessons-podcast-1-preview-copy-2021-01-21-14_26_31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/logo/vuexy-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/arrow-down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/auth-v1-bottom-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/auth-v1-top-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/calendar-illustration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/coming-soon-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/coming-soon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/content-img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/content-img-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/content-img-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/content-img-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/error-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/error.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/forgot-password-v2-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/forgot-password-v2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/forgot-password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/kb-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/login-v2-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/login-v2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/login/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/login/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/login/google.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/login/twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/not-authorized-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/not-authorized.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/pixinvent-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/register-v2-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/register-v2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/reset-password-v2-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/reset-password-v2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/under-maintenance-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/pages/under-maintenance.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/images/portrait/small/avatar-s-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/scss/branch-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/scss/branch-grid-view.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/scss/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/scss/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/scss/variables/_variables-components.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/assets/scss/variables/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/components/Logo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/components/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/components/email/MailSidebar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/components/global/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/components/list/ListFoot.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/components/list/ListHead.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/components/navbar/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/components/useResourcesList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/components/useValidationErrorHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/components/utils/validations/validations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/components/utils/validations/validators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/layouts/Full.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/layouts/Main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/layouts/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/middleware/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/middleware/guest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/navigation/horizontal/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/navigation/vertical/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/nuxt.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/pages/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/pages/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/pages/login/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/plugins/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/plugins/filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/plugins/global-components.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/plugins/minisendAPI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/plugins/vue-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/plugins/vue-toastification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/static/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/store/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/store/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/store/appConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/test/Logo.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../app/themeConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/API/Email/CreateEmailTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/API/Email/LoadEmailsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/API/Recipient/RecipientTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/API/Token/TokenTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/EmailController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/EmailController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/TokenController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/TokenController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Recipient.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Recipient.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Email/CreateEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Email/CreateEmail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Email/LoadEmails.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Email/LoadEmails.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/User/Authentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/User/Authentication.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/EmailSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/EmailSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/LoginUserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/API/Authentication/LoginUserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/LogoutUserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/API/Authentication/LogoutUserTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -686,23 +200,27 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1rOjpf2jMeZ8bZnCJTVAtqDxla9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/storage/app" />
+      <recent name="$PROJECT_DIR$/tests/API/User" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/storage/app" />
       <recent name="$PROJECT_DIR$/storage" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
-      <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -717,11 +235,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.RecipientTest.testNoRecipientsLoaded">
+    <configuration name="RecipientTest.testNoRecipientsLoaded" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\API\Recipient\RecipientTest" file="$PROJECT_DIR$/tests/API/Recipient/RecipientTest.php" method="testNoRecipientsLoaded" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.RecipientTest.testNoRecipientsLoaded" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -735,7 +262,8 @@
       <updated>1618854214907</updated>
       <workItem from="1618854217967" duration="34302000" />
       <workItem from="1618981868029" duration="11967000" />
-      <workItem from="1618998675355" duration="32567000" />
+      <workItem from="1618998675355" duration="32688000" />
+      <workItem from="1619071231293" duration="19264000" />
     </task>
     <servers />
   </component>

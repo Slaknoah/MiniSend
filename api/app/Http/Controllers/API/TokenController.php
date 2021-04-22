@@ -16,6 +16,8 @@ class TokenController extends Controller
 
     public function create(Request $request)
     {
+        $request->validate( [ 'token_name' => 'required|string'] );
+
         $token = $request->user()->createToken($request->token_name);
 
         return ['token' => $token->plainTextToken];
