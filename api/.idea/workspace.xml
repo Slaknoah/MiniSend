@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af37545b-93da-4d5c-ad02-1afe7b37cd40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.testing.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minisend-worker.conf.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Email/CreateEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Email/CreateEmail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Email/CreateEmailTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/API/Email/CreateEmailTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../app/static/favicon.ico" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
     <select />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/laradock" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -247,7 +247,9 @@
       <workItem from="1618854217967" duration="34302000" />
       <workItem from="1618981868029" duration="11967000" />
       <workItem from="1618998675355" duration="32688000" />
-      <workItem from="1619071231293" duration="20853000" />
+      <workItem from="1619071231293" duration="21089000" />
+      <workItem from="1619154437195" duration="2871000" />
+      <workItem from="1619192370446" duration="2594000" />
     </task>
     <servers />
   </component>

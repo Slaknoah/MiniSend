@@ -33,33 +33,33 @@ class CreateEmail
         $email->sender_email    = $this->data['from']['email'];
         $email->subject         = $this->data['subject'];
 
+        // Remove extra fields that might be included in request
+        $emailUserValidFields = array_flip( [ 'name', 'email' ] );
+
+        $sanitizedToList = [];
+        foreach ($this->data['to'] as $recipient) {
+            $sanitizedToList[] = array_intersect_key( $recipient, $emailUserValidFields );
+        }
+        $this->data['to'] = $sanitizedToList;
+
         if ( isset($this->data['cc']) ) {
-            $cc = [];
+            $sanitizedCCList = [];
             foreach ($this->data['cc'] as $ccItem) {
-                $cc[] = [
-                    'name'  => $ccItem['name'] ?? null,
-                    'email' => $ccItem['email']
-                ];
+                $sanitizedCCList[] = array_intersect_key( $ccItem, $emailUserValidFields );
             }
-            $email->cc = $cc;
+            $email->cc = $this->data['cc'] = $sanitizedCCList;
         }
 
         if ( isset($this->data['bcc']) ) {
-            $bcc = [];
+            $sanitizedBCCList = [];
             foreach ($this->data['bcc'] as $bccItem) {
-                $bcc[] = [
-                    'name'  => $bccItem['name'] ?? null,
-                    'email' => $bccItem['email']
-                ];
+                $sanitizedBCCList[] = array_intersect_key( $bccItem, $emailUserValidFields );
             }
-            $email->bcc = $bcc;
+            $email->bcc = $this->data['bcc'] = $sanitizedBCCList;
         }
 
         if ( isset($this->data['reply_to']) ) {
-            $email->reply_to  = [
-                'name'  => $this->data['reply_to']['name'] ?? null,
-                'email' => $this->data['reply_to']['email']
-            ];
+            $email->reply_to  = array_intersect_key( $this->data['reply_to'], $emailUserValidFields );
         }
 
         $email->added_by = auth()->user()->id;

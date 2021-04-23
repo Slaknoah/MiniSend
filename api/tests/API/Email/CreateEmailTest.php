@@ -43,6 +43,20 @@ class CreateEmailTest extends TestCase
                     'name'    => 'John Doe'
                 ],
             ],
+            'cc'  => [
+                [
+                    'email'   => 'johndoe2@mail.com',
+                    'name'    => 'John Doe'
+                ],
+                [
+                    'email'   => 'johndoe3@mail.com',
+                    'name'    => 'John Doe'
+                ],
+            ],
+            'reply_to' => [
+                'name'    => 'John Doe',
+                'email'   => 'johndoe3@mail.com',
+            ],
             'subject' => 'You have projects to review!',
             'text'    => $text,
             'html'    => $html
@@ -85,13 +99,16 @@ class CreateEmailTest extends TestCase
             ->assertStatus(201);
 
         $this->assertDatabaseHas('emails', [
-            'sender_name'   => $this->validMailBody['from']['name'],
-            'sender_email'  => $this->validMailBody['from']['email']
+            'sender_email'  => $this->validMailBody['from']['email'],
+            'subject'       => $this->validMailBody['subject']
         ]);
 
         $this->assertDatabaseHas('recipients', [
-            'name'   => $this->validMailBody['to'][0]['name'],
             'email'  => $this->validMailBody['to'][0]['email']
+        ]);
+
+        $this->assertDatabaseHas('recipients', [
+            'email'  => $this->validMailBody['to'][1]['email']
         ]);
     }
 
