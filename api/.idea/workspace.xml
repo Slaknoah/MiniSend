@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af37545b-93da-4d5c-ad02-1afe7b37cd40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/slaknoah.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/API/Authentication/LoginTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/Email/CreateEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Email/CreateEmail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/API/Email/CreateEmailTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/API/Email/CreateEmailTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../app/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mail/EmailPostedMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/EmailPostedMail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/User/Authentication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/LoginUserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/LogoutUserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/API/Authentication/LogoutTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/RegisterUserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/API/Authentication/RegisterTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +19,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
@@ -193,7 +199,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -249,7 +255,11 @@
       <workItem from="1618998675355" duration="32688000" />
       <workItem from="1619071231293" duration="21089000" />
       <workItem from="1619154437195" duration="2871000" />
-      <workItem from="1619192370446" duration="2594000" />
+      <workItem from="1619192370446" duration="3126000" />
+      <workItem from="1619245555858" duration="684000" />
+      <workItem from="1619250595449" duration="315000" />
+      <workItem from="1619251302390" duration="37000" />
+      <workItem from="1619251589783" duration="7802000" />
     </task>
     <servers />
   </component>

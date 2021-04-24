@@ -9,7 +9,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Tests\TestCase;
 
-class LogoutUserTest extends TestCase
+class LogoutTest extends TestCase
 {
     use RefreshDatabase;
     use WithoutMiddleware;

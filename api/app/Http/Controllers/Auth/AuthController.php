@@ -6,7 +6,6 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use App\Services\Gravatar;
-use App\Services\User\Authentication;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
@@ -15,39 +14,48 @@ class AuthController extends Controller
 {
     public function register(Request $request)
     {
-        $gravatar = new Gravatar( $request->get('email') );
-
-        $validator = Validator::make($request->all(), [
+        $request->validate([
             'name'      => 'required|string|max:255',
             'email'     => 'required|string|email|max:255|unique:users',
             'password'  => 'required|string|min:6',
             'confirm_password'  => 'required|same:password'
         ]);
 
-        if ( !$validator->fails() ) {
-            $user = User::create([
-                'name'  => $request->get('name'),
-                'email'  => $request->get('email'),
-                'password'  => bcrypt( $request->get('password') ),
-                'avatar'    => $gravatar->get()
-            ]);
+        $gravatar = new Gravatar( $request->get('email') );
+
+        User::create([
+            'name'  => $request->get('name'),
+            'email'  => $request->get('email'),
+            'password'  => bcrypt( $request->get('password') ),
+            'avatar'    => $gravatar->get()
+        ]);
+
+        return response()->json('', 204);
+    }
+
+    public function login(Request $request)
+    {
+        $request->validate([
+            'email'     => 'required|email',
+            'password'  => 'required'
+        ]);
+
+        if ( Auth::attempt([
+            'email'     => $request->get('email'),
+            'password'  => $request->get('password')
+        ])) {
+            $gravatar = new Gravatar( Auth::user()->email );
+            $gravatar->update( Auth::user() );
 
             return response()->json('', 204);
         }
 
         return response()->json([
-            'success'   => false,
-            'errors'    => $validator->errors()
-        ], 422);
+            'error' => 'invalid_credentials'
+        ], 401);
     }
 
-    public function login(Request $request)
-    {
-        $authentication = new Authentication( $request->all() );
-        return $authentication->authenticateRequest();
-    }
-
-    public function logout(Request $request)
+    public function logout()
     {
         Auth::logout();
 

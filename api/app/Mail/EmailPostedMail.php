@@ -46,15 +46,15 @@ class EmailPostedMail extends Mailable
                 'text' => $this->emailData['text']
             ]);
 
-        if ( $this->emailData['cc'] ) {
+        if ( isset( $this->emailData['cc'] ) ) {
             $message->cc($this->emailData['cc']);
         }
 
-        if ( $this->emailData['bcc'] ) {
+        if ( isset( $this->emailData['bcc'] ) ) {
             $message->bcc($this->emailData['bcc']);
         }
 
-        if ( count( $this->emailData['attachments'] ) > 0 ) {
+        if ( isset( $this->emailData['attachments'] ) && count( $this->emailData['attachments'] ) > 0 ) {
             foreach ($this->emailData['attachments'] as $mailAttachment) {
                 $message->attachData(
                     base64_decode( $mailAttachment['content'] ),
