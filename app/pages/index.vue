@@ -63,6 +63,13 @@
             v-for="token in tokens"
             :key="token.id">
             {{ token.name | title }}
+
+            <feather-icon
+              icon="XIcon"
+              size="16"
+              class="ml-25"
+              @click.prevent="revokeToken(token)"
+            />
           </b-button>
         </div>
 
@@ -114,6 +121,13 @@ export default {
     }
     fetchTokens();
 
+    const revokeToken = async token => {
+      await $api.tokens.revoke( token.id )
+        .then( () => {
+          fetchTokens();
+        });
+    }
+
     const handleSubmitTokenForm = async () => {
       if (!tokenForm.value.token_name) {
         nameState.value = false;
@@ -143,6 +157,7 @@ export default {
       // Tokens,
       tokens,
       tokenForm,
+      revokeToken,
       nameState,
       handleOk,
       handleSubmitTokenForm,

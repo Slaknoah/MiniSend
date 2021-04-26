@@ -19,11 +19,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(['prefix' => 'v1'], function(){
-    Route::get('/user', [ UserController::class, 'show' ]);
+    Route::get('/user', [ UserController::class, 'show' ])->name('api.user');
 
-    Route::get('/tokens', [ TokenController::class, 'index' ]);
-    Route::post('/tokens', [ TokenController::class, 'create' ]);
+    Route::get('/tokens', [ TokenController::class, 'index' ])->name('api.tokens.get');
+    Route::post('/tokens', [ TokenController::class, 'create' ])->name('api.tokens.create');
+    Route::delete('/tokens/{tokenID}', [ TokenController::class, 'revoke' ])->name('api.tokens.revoke');
 
+    Route::get('/recipients', [ RecipientController::class, 'index'])->name('api.recipients.get');
     Route::get('/recipients/{recipient}', [ RecipientController::class, 'show']);
 
     Route::get('/emails', [ EmailController::class, 'index']);

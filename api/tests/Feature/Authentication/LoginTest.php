@@ -1,17 +1,20 @@
 <?php
 
 
-namespace Tests\API\Authentication;
+namespace Tests\Feature\Authentication;
 
 
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
+use Illuminate\Support\Facades\Auth;
 use Tests\TestCase;
 
 class LoginTest extends TestCase
 {
-    use RefreshDatabase, WithoutMiddleware;
+    use RefreshDatabase;
+
+    protected string $auth_guard = 'web';
 
     public function testLoginRequiresEmailAndPassword()
     {
@@ -25,6 +28,8 @@ class LoginTest extends TestCase
         $this->postJson('login')
             ->assertStatus(422)
             ->assertJson($expectedResponse);
+
+        $this->assertGuest($this->auth_guard);
     }
 
     public function testLoginFailsIfUserDoesNotExist()
@@ -41,11 +46,13 @@ class LoginTest extends TestCase
         $this->postJson('login', $payload )
             ->assertStatus(401)
             ->assertJson($expectedResponse);
+
+        $this->assertGuest($this->auth_guard);
     }
 
-    public function testLogsInSuccessfully()
+    public function testUserLogsInSuccessfully()
     {
-        User::factory()->create([
+        $user = User::factory()->create([
             'email'     => 'testuser@mail.com',
             'password'  => bcrypt('password')
         ]);
@@ -57,5 +64,10 @@ class LoginTest extends TestCase
 
         $this->postJson('login', $payload )
             ->assertStatus(204);
+
+        $this->assertEquals(Auth::check(), true);
+        $this->assertEquals(Auth::user()->email, $user->email);
+        $this->assertAuthenticated($this->auth_guard);
+        $this->assertAuthenticatedAs($user, $this->auth_guard);
     }
 }

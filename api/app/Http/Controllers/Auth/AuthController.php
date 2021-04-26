@@ -12,6 +12,11 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth:sanctum')->only('logout');
+    }
+
     public function register(Request $request)
     {
         $request->validate([
@@ -57,7 +62,7 @@ class AuthController extends Controller
 
     public function logout()
     {
-        Auth::logout();
+        Auth::guard('web')->logout();
 
         return response()->json('', 204);
     }

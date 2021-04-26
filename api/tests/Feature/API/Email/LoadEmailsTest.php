@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Tests\API\Email;
+namespace Tests\Feature\API\Email;
 
 
 use App\Http\Resources\EmailCollection;

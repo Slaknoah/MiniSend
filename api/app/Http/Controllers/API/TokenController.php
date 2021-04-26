@@ -27,4 +27,11 @@ class TokenController extends Controller
     {
         return ['tokens' => $request->user()->tokens];
     }
+
+    public function revoke(Request $request, $tokenID)
+    {
+        $request->user()->tokens()->where('id', $tokenID)->delete();
+
+        return response()->json('', 204);
+    }
 }

@@ -48,6 +48,9 @@ $ php artisan migrate:fresh --seed
 
 $ exit
 ```
+
+[Documentation](https://documenter.getpostman.com/view/5709349/TzJycbCU) 
+
 #### Frontend installation
 ```bash
 # Go to the app folder  (.../Minisend/app)

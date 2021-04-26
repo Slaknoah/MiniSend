@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af37545b-93da-4d5c-ad02-1afe7b37cd40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/slaknoah.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/API/Authentication/LoginTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/RecipientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/RecipientController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/TokenController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/TokenController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/EmailPostedMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/EmailPostedMail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/User/Authentication.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/LoginUserTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/LogoutUserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/API/Authentication/LogoutTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/RegisterUserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/API/Authentication/RegisterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Email/CreateEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Email/CreateEmail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/LoginTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Authentication/LoginTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/LogoutTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Authentication/LogoutTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Authentication/RegisterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Authentication/RegisterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Email/CreateEmailTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/API/Email/CreateEmailTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Email/LoadEmailsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/API/Email/LoadEmailsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Recipient/RecipientTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/API/Recipient/RecipientTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/Token/TokenTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/API/Token/TokenTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/API/User/LoadUserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/API/User/LoadUserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -202,15 +209,16 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Feature" />
+      <recent name="$PROJECT_DIR$/storage/app" />
+      <recent name="$PROJECT_DIR$/storage" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/storage/app" />
       <recent name="$PROJECT_DIR$/tests/API/User" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$/app" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/storage/app" />
-      <recent name="$PROJECT_DIR$/storage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,7 +235,7 @@
   </component>
   <component name="RunManager" selected="PHPUnit.RecipientTest.testNoRecipientsLoaded">
     <configuration name="RecipientTest.testNoRecipientsLoaded" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\API\Recipient\RecipientTest" file="$PROJECT_DIR$/tests/API/Recipient/RecipientTest.php" method="testNoRecipientsLoaded" scope="Method" />
+      <TestRunner class="Tests\API\Recipient\RecipientTest" file="$PROJECT_DIR$/tests/Feature/API/Recipient/RecipientTest.php" method="testNoRecipientsLoaded" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -259,7 +267,11 @@
       <workItem from="1619245555858" duration="684000" />
       <workItem from="1619250595449" duration="315000" />
       <workItem from="1619251302390" duration="37000" />
-      <workItem from="1619251589783" duration="7802000" />
+      <workItem from="1619251589783" duration="8858000" />
+      <workItem from="1619367481213" duration="8000" />
+      <workItem from="1619368014959" duration="11000" />
+      <workItem from="1619368117108" duration="6538000" />
+      <workItem from="1619412131396" duration="3977000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Tests\API\Recipient;
+namespace Tests\Feature\API\Recipient;
 
 
 use App\Http\Resources\RecipientResource;

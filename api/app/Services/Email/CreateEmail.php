@@ -3,15 +3,10 @@
 
 namespace App\Services\Email;
 
-
-use App\Jobs\SendEmailJob;
 use App\Mail\EmailPostedMail;
 use App\Models\Email;
 use App\Models\Recipient;
 use App\Services\Gravatar;
-use Illuminate\Bus\Batch;
-use Illuminate\Support\Facades\Bus;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 
 class CreateEmail

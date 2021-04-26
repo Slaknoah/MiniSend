@@ -7,9 +7,19 @@ export default $axios => ({
       throw err;
     }
   },
+
   async create( form ) {
     try {
       const response = await $axios.post( '/api/v1/tokens', form );
+      return response.data;
+    } catch(err) {
+      throw err;
+    }
+  },
+
+  async revoke( tokenID ) {
+    try {
+      const response = await $axios.delete( `/api/v1/tokens/${tokenID}` );
       return response.data;
     } catch(err) {
       throw err;

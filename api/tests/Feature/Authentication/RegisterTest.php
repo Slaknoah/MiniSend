@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Tests\API\Authentication;
+namespace Tests\Feature\Authentication;
 
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -11,7 +11,6 @@ use Tests\TestCase;
 class RegisterTest extends TestCase
 {
     use RefreshDatabase;
-    use WithoutMiddleware;
 
     public function testRegistersSuccessfully()
     {
